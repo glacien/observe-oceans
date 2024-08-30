@@ -10,7 +10,7 @@
 
 #### in back-end folder run:
 
-#### pnpm i
+#### npm i
 
 ##### to start server locally:
 
@@ -25,3 +25,5 @@
 #### npm run generate-image
 
 ## Task can be found in Task.txt
+
+###### Also i'd like to mention that grid file could be transformed to a lot smaller and than procceded. Also I could configure my projects better. And refactor some code for better prictice, for example consider dont repeat yourself principle in code. And so much more could be done. But this is what I came up with
