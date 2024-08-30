@@ -1,0 +1,45 @@
+/*
+
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 0.5rem #222;
+  z-index: 100;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Jersey 10', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--color-text-white--1);
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 9.8rem;
+  color: #5b3758;
+}

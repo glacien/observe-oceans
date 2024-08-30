@@ -1,0 +1,53 @@
+1. You need to create an image like the one above that displays a global sea surface temperature map.
+
+2. Create a demo website that allows users to upload a sea surface temperature data file and display the resulting image.
+
+Input data
+
+You get a ZIP archive containing one sst.grid file and an empty world map empty-map.jpgg.
+
+The binary file has the following dimensions:
+
+const BINARY_DIMENSION X 36000; const BINARY DIMENSION Y 17999;
+
+This file contains a two-dimensional byte array where each element contains the sea surface temperature in Fahrenheit for a given latitude and longitude.
+
+Algorithm
+
+Upload a blank map image.
+
+Unzip the archive and read the binary file.
+
+Color the image of the empty map with colors based on the data from the binary file.
+
+Processing
+
+Minimal: Generate an image similar to the one above, showing a global map of sea surface temperature. It can be a simple node.js script that
+
+generates an image file.
+
+Specialized: Create a demo website that allows users to select a binary file (in harchive format) and display the resulting image. Bonus: Create an API that allows users to download a binary file and receive the resulting image. This will demonstrate your ability to create client-server applications.
+
+Technical requirements:
+
+The project must be hosted on your GitHub account and publicly available.
+
+Use only TypeScript.
+
+Use Node 18+ and PNPM as a package manager.
+
+Use React for a website.
+
+Use mocha Ta chai for unit tests.
+
+Expectation
+
+The purpose of this task is not to create production-ready code, but to assess the candidate's ability to write it. When completing this task, please pay particular attention to the following:
+
+1. Common programming style use eslint and prettier. We want to see your ability to create clean and organized code.
+
+2. React we want to see your ability to build websites with React.
+
+3. Testing we want to see your ability to create unit tests.
+
+4. NodeJS and the server we want to see that you understand client-server architecture.

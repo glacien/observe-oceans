@@ -1,0 +1,32 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha dist/test.js",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "generate-image": "tsc src/computeImage.ts --target ES2020 --outDir dist --moduleResolution node && node dist/computeImage.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/node": "^22.5.0",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "mocha": "^10.7.3",
+    "prettier": "3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.3.0"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "chai": "4.x",
+    "express": "^4.19.2"
+  }
+}
